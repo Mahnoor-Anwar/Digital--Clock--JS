@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(224, 223, 223);
+}
+
+.head {
+    text-align: center;
+    background-color: rgb(69, 95, 95);
+    color: white;
+    width: 300px;
+    padding: 6px;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+}
+
+#digitalclock {
+    border: 10px solid purple;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1cm;
+}
